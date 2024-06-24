@@ -34,6 +34,6 @@ label {
 }
 
 .desk.booked {
-    background-color: lightcoral;
+    background-color: lightpink;
     cursor: not-allowed;
 }
