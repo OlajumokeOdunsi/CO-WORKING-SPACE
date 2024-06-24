@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#booking-form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+}
+
+#desks {
+    margin-top: 20px;
+}
+
+.desk-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desk {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.desk.booked {
+    background-color: lightcoral;
+    cursor: not-allowed;
+}
